@@ -31,9 +31,9 @@ Email → CloudMailin → Cloud Function → Slack
     * Copy the `Trigger URL` of your function for the next step.
 3. Setup CloudMailin to point to server
     * Enter the `Trigger URL` from the previous step.
-    * Select `JSON Format` as the `POST Format`.
+    * Select **JSON Format** as the `POST Format`.
     * Use the newly generated email address in the next step.
-    * **TIP:** Use a service such as webhookapp.com or ngrok.com if you need help debugging your endpoint.
+    * **TIP:** Use a service such as [webhookapp](webhookapp.com) or [ngrok](ngrok.com) if you need help debugging your endpoint.
 4. Setup forwarding from your email to your CloudMailin account.
     * Depending on your email provider you may need a verification code.
     * If that’s the case, you should log all messages going to your server to find the verification code.
