@@ -8,7 +8,7 @@ Email → CloudMailin → Cloud Function → Slack
 ![Slack Screenshot](/screenshots/slack_screenshot.png "Screenshot of Notification in Slack")
 
 ## Overview
-[Swappa](https://swappa.com) is a great site for buying and selling used electronics. You get a high level of customer protection and support, the site is really easy to navigate, and listings are well organized. One downside to the site is the lack of public API. If you want notificaitons about new listings the only options is to subscribe to email notifications. I wanted something better than emails. 
+[Swappa](https://swappa.com) is a great site for buying and selling used electronics. You get a high level of customer protection and support, the site is really easy to navigate, and listings are well organized. One downside to the site is the lack of public API. If you want notificaitons about new listings the only option is to subscribe to email notifications. I wanted something better than emails. 
 
 ## New Notification Flow  
 1. User lists new item for a product you’re subscribed to
@@ -42,7 +42,6 @@ Email → CloudMailin → Cloud Function → Slack
 ### Notes
 * This can be done with the free tier of all services mentioned 🎉
 * I didn't go in depth with screenshots of how to setup cloud functions or configure CloudMailin because their interfaces and settings are likely to change.
-* There is an opportunity to customize this by adding price filters, alerting to services other than slack, or logging the data for analysis. If you do any of these things feel free to open a ticket to share with others!
 * This is geared towards people with some technical background. It could be made much simpler by setting this up with heroku and adding a deploy to heroku button.
 
 
@@ -57,4 +56,7 @@ I decided not to do that because:
 Another solution is to forward the emails directly to Slack. This works okay but then you don't see the rich preview of the listing so you have to open the listing to see the price and other details. 
 
 ## Contributing
-If you noticed any typos or have ideas for how to make this better feel free to make a PR or open an issue. I created this as a GitHub repo so it would be easy for people to find and others could contribute.
+* ⭐ the repo if this helped you!
+* There is an opportunity to customize this by adding price filters, alerting to services other than slack, or logging the data for analysis. If you do any of these things feel free to open a ticket to share with others!
+* If you noticed any typos or have ideas for how to make this better feel free to make a PR or open an issue.
+* I created this as a GitHub repo so it would be easy for people to find and others could contribute.
